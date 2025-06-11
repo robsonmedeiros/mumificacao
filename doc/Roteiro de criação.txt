@@ -1,0 +1,29 @@
+Escreva o esqueleto
+
+Escreva em código Python um comando para gerar os personagens base da história que enviei via API com PIAP
+Escreva em código Python para gerar todas as narrações de todas as cenas da história via Eleven Labs API
+Escreva em código Python para transformar essas narrações em URLs compartilhaveis via API PIAP
+Escreva em código Python para gerar todas as sounds e effects + musica de todas as cenas via Eleven Labs API
+Escreva em código Python para gerar todas as cenas da história via Midjourney API com PIAP
+
+Escreva em código Python para animar com movimento de cena todas as imagens geradas usando PIAP
+# --- URLs DOS PERSONAGENS BASE ---
+URL_BRANCA_DE_NEVE = "https://img.theapi.app/mj/9c026602-225b-40da-b546-820ba60f4d7f.png"
+URL_IDOSA = "https://img.theapi.app/mj/7c5900ee-d5a8-4b2c-ad88-7bd1a39dfeb6.png"
+URL_PRINCIPE = "https://img.theapi.app/mj/a784ad65-0ec2-4497-abf8-2125e2ee979d.png"
+
+URL_CENA_1 = "https://img.theapi.app/mj/73ce57b4-8ba6-4c6f-b501-8fe19082f85b.png"
+URL_CENA_2 = "https://img.theapi.app/mj/3e229a5e-2f05-4e80-bfa1-e2653c220e3d.png"
+URL_CENA_3 = "https://img.theapi.app/mj/f4f62f5d-4b6d-45da-a3a0-d43f12d85b70.png"
+URL_CENA_4 = "https://img.theapi.app/mj/9bddc9a3-d7cd-4859-916e-5ab5593873ff.png"
+URL_CENA_5 = "https://img.theapi.app/mj/8d9e7383-b01d-4006-b0bf-bc3cf12e917b.png"
+URL_CENA_6 = "https://img.theapi.app/mj/8b301333-776d-49b8-903c-308889f6406b.png"
+URL_CENA_7 = "https://img.theapi.app/mj/97beae20-bfa0-4967-ab78-d14c8ea0c4c6.png"
+
+https://youtube.com/shorts/zbbqvfgf86g?feature=share
+
+
+
+Escreva em código Python para unir as animações + narração + sounf effects + musicas de todas as cenas que nós criamos
+Escreva em código Python para unir todas as cenas geradas pelo ultimo comando em 1 unico video
+Escreva em código Python para visualizar essas cenas no meu reprodutor dentro do JupyterLab

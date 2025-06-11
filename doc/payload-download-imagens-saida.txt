@@ -1,0 +1,70 @@
+{
+  "task_id": "ae9d2b32-9575-484f-8232-a7f47c438f0e",
+  "model": "midjourney",
+  "task_type": "imagine",
+  "status": "completed",
+  "config": {
+    "service_mode": "public",
+    "webhook_config": {
+      "endpoint": "",
+      "secret": ""
+    }
+  },
+  "input": {
+    "aspect_ratio": "16:9",
+    "process_mode": "turbo",
+    "prompt": "Night sky above Egyptian desert, pyramids under starlight, mystical and timeless",
+    "skip_prompt_check": false
+  },
+  "output": {
+    "image_url": "https://img.theapi.app/mj/ae9d2b32-9575-484f-8232-a7f47c438f0e.png",
+    "image_urls": [
+      "https://cdn.midjourney.com/61110499-945c-4a23-882c-85772bad3141/0_0.png",
+      "https://cdn.midjourney.com/61110499-945c-4a23-882c-85772bad3141/0_1.png",
+      "https://cdn.midjourney.com/61110499-945c-4a23-882c-85772bad3141/0_2.png",
+      "https://cdn.midjourney.com/61110499-945c-4a23-882c-85772bad3141/0_3.png"
+    ],
+    "temporary_image_urls": [
+      "https://img.theapi.app/cdn-cgi/image/trim=0;1456;816;0/mj/ae9d2b32-9575-484f-8232-a7f47c438f0e.png",
+      "https://img.theapi.app/cdn-cgi/image/trim=0;0;816;1456/mj/ae9d2b32-9575-484f-8232-a7f47c438f0e.png",
+      "https://img.theapi.app/cdn-cgi/image/trim=816;1456;0;0/mj/ae9d2b32-9575-484f-8232-a7f47c438f0e.png",
+      "https://img.theapi.app/cdn-cgi/image/trim=816;0;0;1456/mj/ae9d2b32-9575-484f-8232-a7f47c438f0e.png"
+    ],
+    "discord_image_url": "",
+    "actions": [
+      "reroll",
+      "upscale1",
+      "upscale2",
+      "upscale3",
+      "upscale4",
+      "variation1",
+      "variation2",
+      "variation3",
+      "variation4"
+    ],
+    "progress": 100,
+    "intermediate_image_urls": null
+  },
+  "meta": {
+    "created_at": "2025-06-11T00:56:49Z",
+    "started_at": "2025-06-11T00:59:24Z",
+    "ended_at": "2025-06-11T01:01:12Z",
+    "usage": {
+      "type": "point",
+      "frozen": 700000,
+      "consume": 400000
+    },
+    "is_using_private_pool": false,
+    "model_version": "unknown",
+    "process_mode": "relax",
+    "failover_triggered": false
+  },
+  "detail": null,
+  "logs": [],
+  "error": {
+    "code": 0,
+    "raw_message": "",
+    "message": "",
+    "detail": null
+  }
+}

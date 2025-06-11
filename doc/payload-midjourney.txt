@@ -1,0 +1,22 @@
+import http.client
+import json
+
+conn = http.client.HTTPSConnection("api.piapi.ai")
+payload = json.dumps({
+   "model": "midjourney",
+   "task_type": "imagine",
+   "input": {
+      "prompt": "sint culpa voluptate",
+      "aspect_ratio": "1:1",
+      "process_mode": "turbo",
+      "skip_prompt_check": False
+   }
+})
+headers = {
+   'x-api-key': '',
+   'Content-Type': 'application/json'
+}
+conn.request("POST", "/api/v1/task", payload, headers)
+res = conn.getresponse()
+data = res.read()
+print(data.decode("utf-8"))
